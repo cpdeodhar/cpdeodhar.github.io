@@ -1,50 +1,164 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: "C.P. Deodhar: Father of the Hard Gelatin Capsule in India"
+excerpt: "About Mr. Deodhar"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+- /about/
+- /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+A capsule containing medicine has become an integral part of our day-to-day
+life. We swallow capsules multiple times but hardly pause to consider what is
+this capsule made of? How is it made? Who made it? However, Mr. C. P. Deodhar
+was possessed with these problems 50 years back, when the hard gelatine capsule
+was totally a foreign product, being imported into India, filled as well as
+empty, by the then Indian multinational pharmaceutical companies.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+  Mr. Deodhar took his M.Sc. Degree in 1954 in Biochemistry, aspiring to work
+on a drug for incurable diseases, or similar such research-based work. At that
+very time one of his close relatives suggested to him the subject of hard
+gelatine capsules. Mr. Deodhar took up the project, as it sounded quite
+challenging. He also thought that, if he succeeded in his project, he would be
+helping save the nation valuable foreign exchange spent otherwise on importing
+capsules.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+  In the year 1954, hard gelatine capsules were mainly manufactured in the
+world by only two American Companies. The capsule manufacturing technology was
+a closely guarded secret, inaccessible to any outsider. After extensive
+study of the available literature at the then UDCT library and innumerable
+experiments carried on with untiring zeal, patience, and perseverance; Mr.
+Deodhar succeeded in producing the first capsule in India, made by hand on
+plastic dipping moulds in the year 1956. He thereafter created a semiautomatic
+capsule machine in 1958 at Malad, Mumbai, with commercial production starting
+in October 1958. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+  Capsules were now produced and supplied to pharma companies. Efforts were
+continuously being made for quality improvement in  process technology and
+production . Because of this indigenous production, the import of capsules to
+India ceased in 1961.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+  Mr. Deodhar was at the forefront of this entire process. He encountered faced
+a number of challenges and complicated issues singlehandedly, in very adverse
+situations, in the absence of  financial as well as technical support from any
+quarter. 
+
+
+
+  In the process, Mr Deodhar realized the need for a fully automatic Capsule
+making machine, to produce the best quality capsules. Importing one then cost
+around Rs 40 lakhs, which was beyond his reach. However, to fulfil his dream of
+producing superior quality capsules on a fully automatic machine, Mr Deodhar
+took the support of a company which purchased and installed two
+such imported machines in Mumbai. In lieu of this he had to sell them the
+semi-automatic unit produced by him and the necessary technology which he had
+developed as well as agree to work with them as an
+employee. Achieving his dream took priority in his mind as he started working
+relentlessly on this project. 
+
+
+
+  Mr. Deodhar, however, being a firm believer in the highest quality of Capsule
+production, proposed to make a trip to the US to study the latest
+developments in Capsule manufacturing there. This was opposed by his employers
+who were by then enjoying the profit reaped by the monopoly in Capsule
+production. Mr Deodhar therefore decided to make a trip abroad at his own
+expense. In this trip to the US, he succeeded in visiting Capsule factories,
+establishing contacts and having detailed discussions with legendary people in
+the field, and returning fully charged with ideas of improvements in achieving
+the best quality product. He managed to use this acquired knowledge in practice
+upon return. 
+
+
+
+  His zest for quality and development was relentless and he realised the need
+for a team with financial backing and a well-equipped laboratory. He found this
+support in a leading Pharmaceutical Company in Mumbai which he
+joined in 1977. They willingly backed him in this shared endeavour of quality
+pursuit in capsule production.
+
+
+
+  They succeeded in improving the performance of their indigenous fully
+automatic capsule making machine by carrying out necessary modifications and
+started producing capsules in a big way. Mr. Deodhar got a free hand in
+implementing all his ideas regarding the ideal production conditions in the
+Gelatine Room, Air Conditioning system, Drying system, etc. and he helped to
+build this company into the foremost supplier of empty gelatine Capsules in
+India. 
+
+
+
+  Today, they are the leading exporters of capsules to several countries in the
+world including the U.S.A. Mr. Deodhar was fortunate enough to see his dream
+realized in his lifetime. His years of dedicated work has borne this sweet
+fruit, which is a matter of pride to the nation also.
+
+
+  During this period, he also developed ink and edible lake colours required
+for the capsule, which were being imported all along. He has developed
+Printer’s Roller Composition from the capsule wastage useful in printing
+operations. 
+
+
+
+  One of his notable qualities was documentation of his work. His meticulously
+written diaries over the years daily, are proof of that. This documentation
+helped him to compile further detailed literature on the technical knowledge of
+Capsule manufacturing for benefit of the pharmaceutical industry and the users
+of Capsule.  He wrote a book for pharmacy students on Hard Gelatine Capsules in
+India. He also wrote a book in Marathi “Hard Gelatine Capsule ani Mi”(Hard
+Gelatine Capsules and Me), wherein he has penned his struggle for developing
+the capsule. 
+
+
+
+  When asked, he cited his sources of inspiration to be Sir Thomas Alva Edison
+and Madame Marie Curie. These scientists were his idols since childhood from
+whom he imbibed the lesson “not to give up until you succeed.
+
+
+
+  It took fifty years of hard work, perseverance, patience, and diligence to
+produce international quality capsules in India. The Indian capsules are very
+well accepted now all over the world and are being exported to a number of
+countries including the USA. 
+
+
+
+  After fifty years of untiring work and upon completion of his mission, at the
+age of 75, he shifted from Mumbai to Pune, as was his desire.
+
+
+
+  His tremendous sense of commitment to the field continued, as he taught the
+subject of Capsules to pharmacy students in Pune and gave lectures across
+pharmacy colleges all over India. 
+
+
+
+  The empty gelatine Capsule that looks so small and tiny however involves a
+very complex and precision demanding manufacturing process. To manufacture a
+good capsule, one requires thorough knowledge of gelatine chemistry, grease
+chemistry, instrumentation engineering, mechanical engineering, chemical
+engineering, air conditioning and microbiology. 
+
+  Mr. Deodhar was only a qualified biochemist. However, being an ardent student
+and a researcher at heart, he mastered knowledge in all these above fields,
+from various experts in these disciplines as well as from his own personal
+study and observations. With his experience and knowledge, he became a sort of
+an encyclopaedia for the hard gelatine capsule and was fondly known as ‘Capsule
+Deodhar’ in his field. 
+
+
+
+  He is rightfully recognised as the “Father of Hard Gelatine Capsule in
+India”. 
+
+
